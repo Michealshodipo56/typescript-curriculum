@@ -1,0 +1,865 @@
+{
+  "source": {
+    "repository": "typescript-exercises/typescript-exercises",
+    "url": "https://github.com/typescript-exercises/typescript-exercises",
+    "commit": "95b2e81f6e4bd3d1b81072ceb311bcb4b8415e91",
+    "branch": "main",
+    "snapshot_url": "https://github.com/typescript-exercises/typescript-exercises/tree/95b2e81f6e4bd3d1b81072ceb311bcb4b8415e91",
+    "license": "MIT",
+    "status": "imported",
+    "destination": "sources/typescript-exercises",
+    "source_file_count": 121,
+    "imported_file_count": 121,
+    "omitted_file_count": 0,
+    "inventory": "manifests/typescript-exercises.json"
+  },
+  "files": [
+    {
+      "path": ".eslintignore",
+      "mode": "100644",
+      "git_blob_sha": "046601cc423e47f849238e78624ad9e1ca27e3a8",
+      "sha256": "3d3eb246b3b8e0c4a21f109ce798c735f77c7698ad9e5e9c79e27b0142320e8d",
+      "bytes": 14
+    },
+    {
+      "path": ".eslintrc",
+      "mode": "100644",
+      "git_blob_sha": "32b151de67e0a5d03b698edfa3274e4afbee4a86",
+      "sha256": "4547f209ae58bf73e4246fd45dba37c6eee0a09056f8d6e51a7787a8f2d6803e",
+      "bytes": 2905
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "git_blob_sha": "6a759759608de4c86e3a17dad07b48f7b35c130e",
+      "sha256": "c502a5fa29c64a299b8bae6224640ffd21e8f2c13c22b9d48616fe5d867bc583",
+      "bytes": 33
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "mode": "100644",
+      "git_blob_sha": "a2332bdfe9d6f872ea98685c30b6f103c643dd67",
+      "sha256": "a80a3c44c585370f06573a8bfd44a5bd4725ea6f1af8f4966d6947d80ab2d46a",
+      "bytes": 363
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "mode": "100644",
+      "git_blob_sha": "ecf254f5161c5c4fb859ee6e01918bbbe6973915",
+      "sha256": "1c84d6bedd3183eb5a4cb9b399cac144d6b025e07deb7b7d2ab11c59d0076d1d",
+      "bytes": 709
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "git_blob_sha": "392f4ffe35cb59c8b49f85f27b05b444ea70d0f0",
+      "sha256": "7b8f45060f7374f2e74f7e00dc14b2c4774ab9e9632bcf43d2d6b93ee082cb00",
+      "bytes": 320
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "git_blob_sha": "13d8e8e4cf313878436cc67e9457e8a58079c9a4",
+      "sha256": "07298b982952ddb9294be2d56da9a44641296f9b898de2c7e735f9798402dc6b",
+      "bytes": 562
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "git_blob_sha": "d565fb3a6ee7ae0cd1677da49f3402226e23fafa",
+      "sha256": "10b2831912dc4dc91b25429511e6c74f901eebf64b625328f8fd08dd9c3cf8fe",
+      "bytes": 1055
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "git_blob_sha": "d5f520f5e3713dedcd86dc0762c81a2873418538",
+      "sha256": "f8e3daec6e5a57eb1b6f97c893588ced1bc8f8bd83f824a947f72f905a6ee19a",
+      "bytes": 828
+    },
+    {
+      "path": "config-overrides.js",
+      "mode": "100644",
+      "git_blob_sha": "e425f67fc7fc5d0d2325761c2fbe7450ed58cb82",
+      "sha256": "ca4b0d4dab553840ec83a618d9bcf10f60153c045e075d7e2688026bdcd43365",
+      "bytes": 238
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "git_blob_sha": "f0acc7a940d28cb4f5d1ec0bbe3ca1b5a7e4ffc2",
+      "sha256": "cc993df367c75db206e7190c0e594ee30d55e4d60762b983516084736f88110b",
+      "bytes": 810288
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "git_blob_sha": "52faf1fef31adb438e201955418f7baf74639fed",
+      "sha256": "de5bc391d0e1432109f68d62bdc0022ba0e47b29a5400c84fb17c966f7509dfc",
+      "bytes": 2432
+    },
+    {
+      "path": "public/favicon.ico",
+      "mode": "100644",
+      "git_blob_sha": "879e3fd2eeb8155ab8233fa8f9054fa6448e529c",
+      "sha256": "cd71ce3ca47f78a3abab43bb882e16a9f487ed2ab13ae6e2179c1f3cbad1ea0c",
+      "bytes": 99834
+    },
+    {
+      "path": "public/index.html",
+      "mode": "100644",
+      "git_blob_sha": "a5d4ad4413fbcf651db86b6021aa1bb61e3340dc",
+      "sha256": "db9889a22bdfd2a6d26e8ecb82cd7c7dcdad22186c0ee707bd7d0434bd64d969",
+      "bytes": 1128
+    },
+    {
+      "path": "public/logo-192.png",
+      "mode": "100644",
+      "git_blob_sha": "65d2df4f43c351065dfdc84aa71919f0aead7e86",
+      "sha256": "3be70e86bd63e6394fd29ab52fa1558978740cce43801254a02e8ec4cf830e9a",
+      "bytes": 11126
+    },
+    {
+      "path": "public/logo-512.png",
+      "mode": "100644",
+      "git_blob_sha": "35359965883c9ebee33a2850b0ef9dcdf2cd9bbe",
+      "sha256": "9c4ae0133640aae021d0837142734c9d593051b3c96d0d3b045a4ef2c51b89bc",
+      "bytes": 10776
+    },
+    {
+      "path": "public/manifest.json",
+      "mode": "100644",
+      "git_blob_sha": "1ff44ce833bf6c7efada1eef3c07960cdfb5376e",
+      "sha256": "ce7526d95757da4a863a42a7b4699f4167f87250079425b2e6ef16e384efb226",
+      "bytes": 502
+    },
+    {
+      "path": "public/robots.txt",
+      "mode": "100644",
+      "git_blob_sha": "e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e",
+      "sha256": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2",
+      "bytes": 67
+    },
+    {
+      "path": "src/components/auto-resizer/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "84972dbb15005791932dde87280ab2846057becb",
+      "sha256": "38232fb288ae143bfa59d811f988dc1b12958982db2300b8fc97503a03c8b313",
+      "bytes": 1779
+    },
+    {
+      "path": "src/components/collapsible-panel/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "d3d4a5f5b84348b4a015b1edf021431f9c0e151e",
+      "sha256": "6c9623c55dc29e9fdc4f1479962d6643ebfb4f91ba5ce1ba7505cd17262b4b6d",
+      "bytes": 3629
+    },
+    {
+      "path": "src/components/dialog/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "3095f916178a1d2a8d5de080fb074ad1f3416130",
+      "sha256": "2da5ee14afa44bca6c4a54c17966d9e49af74eebbe69d509ecd33c77af33081a",
+      "bytes": 1629
+    },
+    {
+      "path": "src/components/file-title/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "9f5a3f7c51aa9d21ea7b21f17f2164594078b5d1",
+      "sha256": "9d20015c645a0966ff934683f48c58845865e4c1ec6241c01f64d4af326811ff",
+      "bytes": 900
+    },
+    {
+      "path": "src/components/file-tree-view/icons.tsx",
+      "mode": "100644",
+      "git_blob_sha": "14567a5a7a73458d80f552397c74eb55243fc8de",
+      "sha256": "63439cd4efab6a6026c12e18769d9e75feeb3931fb63240a789a100b098aa93d",
+      "bytes": 662
+    },
+    {
+      "path": "src/components/file-tree-view/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "dae45b4dec1ac781a15a1daf119e5c06674cd3e0",
+      "sha256": "1f1cd0ddef47369fba34f734d7a358ec526e0ffda559b1bd73f6ca5e3cdc0d4c",
+      "bytes": 6507
+    },
+    {
+      "path": "src/components/footer/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "320b5d6b7da83a34358dc8cb5a8e2253fff8c779",
+      "sha256": "132450587daa61c34b61463ceaf135ba190cdc56b7c52858a624f2ba491c9041",
+      "bytes": 956
+    },
+    {
+      "path": "src/components/header/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "87152d33ff27590b4f69ff5a8d81ad946d9f537f",
+      "sha256": "b4b20accca127b67b4370a212e4c20462505c04bd6ee8f5548816c70a5f3083d",
+      "bytes": 1112
+    },
+    {
+      "path": "src/components/header/ts-logo.tsx",
+      "mode": "100644",
+      "git_blob_sha": "2f3c3d036378412f511c2aa62e53a9ade53d626b",
+      "sha256": "0176cd90096df807f74ab8c79ff7586bf6ecfed0b7d5e1f9ce78a447c818c0e8",
+      "bytes": 1869
+    },
+    {
+      "path": "src/components/loading-container/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "d59840f7f97672115ab316fc9f97810466391477",
+      "sha256": "fa8f676ccd6b2f97175c434f68624a91c83f38de8850fb71f362b700523e2d54",
+      "bytes": 1872
+    },
+    {
+      "path": "src/components/monaco-diff-viewer/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "6c2e1f0a47c14cfb125efd2197fcc588fc6eb071",
+      "sha256": "1e513a37e8d6f4609f4d9256331290f00a451658557cffe7b0d30cc2812901d2",
+      "bytes": 1814
+    },
+    {
+      "path": "src/components/monaco-editor/diff-dialog.tsx",
+      "mode": "100644",
+      "git_blob_sha": "5366d0a850a75c0ad0e7db3fb24a6c1d64c9d489",
+      "sha256": "5a0a51a72e304fec2747288517600218910c15f28e87906acc53c7acf6399062",
+      "bytes": 2969
+    },
+    {
+      "path": "src/components/monaco-editor/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "95dcb080a25ae3948f972d02835282e5d2ff509d",
+      "sha256": "20592f3cf979f2265c2127ad5c3c290fc1039f593b3b7b59eab01e2328646738",
+      "bytes": 7294
+    },
+    {
+      "path": "src/components/monaco-editor/revalidate-model.ts",
+      "mode": "100644",
+      "git_blob_sha": "fa3ac0521901499689024ffde85611a84391708a",
+      "sha256": "ed79f0a501d2041398f6f9fc0f634c94c57e59a646fc721c2bd392da93d4721e",
+      "bytes": 1756
+    },
+    {
+      "path": "src/components/theme-toggle/icons/MoonLogo.tsx",
+      "mode": "100644",
+      "git_blob_sha": "1f80fe21b71f01b5d75f1b499a881f1ca32e1d0c",
+      "sha256": "58c6422f72f82e1d024f6e678808f586bf465f71dec6d3b53a7297121b71796e",
+      "bytes": 645
+    },
+    {
+      "path": "src/components/theme-toggle/icons/SunLogo.tsx",
+      "mode": "100644",
+      "git_blob_sha": "0d0112cec4cc070ecb76b1756ab7b17c6b5b9c30",
+      "sha256": "010de85f733c5cdc9e545dd0979a6385a2435cfe5a873ad8ef76fcc749d8360e",
+      "bytes": 1749
+    },
+    {
+      "path": "src/components/theme-toggle/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "145412c4ba89d20f357800a858da0764d67c7e66",
+      "sha256": "a795afbb6280cd881666555771de7348e1c2a4eac373c00d89e78771c104ad9b",
+      "bytes": 1312
+    },
+    {
+      "path": "src/components/validation-errors/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "058b3b0f450f7cdac4f7b5357b782413017494b0",
+      "sha256": "2ed0bbb8fc2d6630c7bb7be24c79a5f1c0b4ed936b35b09c7819c78a24a20db1",
+      "bytes": 1396
+    },
+    {
+      "path": "src/containers/app-theme-provider/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "3f47abec32bcfeaaf5ac5213cf5a8004ec5d1630",
+      "sha256": "e69492968d883e4b2e41b05e2af2db34a782e9ce6ebe0d5f536e1cb693422415",
+      "bytes": 1817
+    },
+    {
+      "path": "src/containers/app/fonts.ts",
+      "mode": "100644",
+      "git_blob_sha": "7560fc8dccc770aa27e9130f13bae63b1636a64e",
+      "sha256": "dd172a712b96f69e9e60c185bd9ac82066249ddc144884ea5b8530220e8479a6",
+      "bytes": 2305
+    },
+    {
+      "path": "src/containers/app/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "a04cf75a4ec4164b3ab9266b0d9aa24035d8434d",
+      "sha256": "c7236141de0aa071bdac79ecf827406de3613c3dfb55a4e2bd9b221d6e919def",
+      "bytes": 1552
+    },
+    {
+      "path": "src/containers/exercise/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "4134b4883202d788e1b9655565a31b5afe30cded",
+      "sha256": "65a228b8b1084125b1469d59383efb95f510da995e4bb6de8ce3f75a89b84616",
+      "bytes": 8026
+    },
+    {
+      "path": "src/containers/navigation/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "0a1b0ae341467c3f0b8b3db598b0226675d9cc98",
+      "sha256": "baad505a330c96ac980ab2fb288855263b1530a9efc6c882ed74bbf0e34e1187",
+      "bytes": 2728
+    },
+    {
+      "path": "src/containers/page-layout/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "61807b15446fad117e1b60519796519e1959ec58",
+      "sha256": "7ec9c3913f22bc547254e53afd687dfabdd6e991cd1216c77b2f5901d8802a58",
+      "bytes": 716
+    },
+    {
+      "path": "src/exercises/1/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "b4864ff88c2371a25e36d2b856f880144e0d171b",
+      "sha256": "d06796940be5662c982ae681390fd38b900670430afd82c7e7abf2c8a7f71568",
+      "bytes": 3910
+    },
+    {
+      "path": "src/exercises/1/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "3e8438704623d1ec6eded8beb9deecef4ef20992",
+      "sha256": "6235ed686d30b5df031c8c0d40322beb5b4ca9fd44a15394e70d33837e24cee1",
+      "bytes": 3859
+    },
+    {
+      "path": "src/exercises/1/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "757c96c338ae7a9143b147ad67da710577652eea",
+      "sha256": "379caf04d718c5792104973d1ec772434ba3f525bb444576b8c197d5ccab8226",
+      "bytes": 390
+    },
+    {
+      "path": "src/exercises/10/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "47de3872a014d54622f0889928f5485052b1970f",
+      "sha256": "1f5e5edc7bc61a464b8d85445a9fbf504573f20d96e0ee7313be4229271b5921",
+      "bytes": 4562
+    },
+    {
+      "path": "src/exercises/10/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "4faffcd5993c372f4785e999b924fab7cbb9b668",
+      "sha256": "f762379d9482c34096f02e552097e8093b57d28bf63e4889ac374367a3d80f54",
+      "bytes": 3887
+    },
+    {
+      "path": "src/exercises/10/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "56c7e66abf406e2a1d7aa72736016758f083d2a1",
+      "sha256": "7bd4989bd825507760d9c3fd498f3a4eb132611ce1661975336a56d3389d6f46",
+      "bytes": 1439
+    },
+    {
+      "path": "src/exercises/11/declarations/str-utils/index.d.ts",
+      "mode": "100644",
+      "git_blob_sha": "535674931e3e1ccb11ae1b81c36091bde8722056",
+      "sha256": "e739621d25b986fbc3be28c3392bd3b277be77e2b4add8e347dcf2131eb222c5",
+      "bytes": 82
+    },
+    {
+      "path": "src/exercises/11/declarations/str-utils/index.solution.d.ts",
+      "mode": "100644",
+      "git_blob_sha": "4deded1f6e337ecd39eee76c1c9abcc619229ac5",
+      "sha256": "4198da6d3b87347f631245342a22cc9d7f2f129e343e3622b59df5311c9c5bdf",
+      "bytes": 273
+    },
+    {
+      "path": "src/exercises/11/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "3a9e6261760dcec44062beb7f5f6ccb74416b378",
+      "sha256": "19c3812725a30733e4c473b3ffe515b2225196f0d99a3986186ba1b031fdfa6d",
+      "bytes": 2648
+    },
+    {
+      "path": "src/exercises/11/node_modules/str-utils/README.md",
+      "mode": "100644",
+      "git_blob_sha": "18ab82d8fe6023886faaeee467236a82b9750010",
+      "sha256": "a3af845391f300c0cffc6e49583af51113822eac3b00b4bfdec31fbba3113bca",
+      "bytes": 425
+    },
+    {
+      "path": "src/exercises/11/node_modules/str-utils/index.js",
+      "mode": "100644",
+      "git_blob_sha": "dc92829f05ce99ca4fa155e9bf54479a515eb613",
+      "sha256": "29f8d56ce8747e3e9d8f030d34a663cb7403f87550cd5a73badf06ce790cf44a",
+      "bytes": 1308
+    },
+    {
+      "path": "src/exercises/11/node_modules/str-utils/package.json",
+      "mode": "100644",
+      "git_blob_sha": "a4b662d21553b5913fc5009ac8f2f494416c1afd",
+      "sha256": "643e50539e0cd1a1b456ddda3c41a18d7189f0ce4c2004a011e06ef747f8f1da",
+      "bytes": 52
+    },
+    {
+      "path": "src/exercises/11/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "3f45410a50790996b481c537523f0662b014c6bf",
+      "sha256": "dae5fff40b8957102aef13c104bb8a9dbec7ef59c2a55bb8aef0bd764b475620",
+      "bytes": 231
+    },
+    {
+      "path": "src/exercises/12/declarations/stats/index.d.ts",
+      "mode": "100644",
+      "git_blob_sha": "da99fbfc6cd3aeb6ac8de78c27fe92870434010a",
+      "sha256": "57deb4de176842e7fd90fead5ac1c298228ab85a317d5d7d0771a4b5f544ee71",
+      "bytes": 106
+    },
+    {
+      "path": "src/exercises/12/declarations/stats/index.solution.d.ts",
+      "mode": "100644",
+      "git_blob_sha": "6e01d7f003597f8d7e7f64e35c93cae93fa9d58e",
+      "sha256": "098b1f08f25467b94b2b71cdd6ee9402cf983158ce87ada2cc2a5ee8d6c5de36",
+      "bytes": 588
+    },
+    {
+      "path": "src/exercises/12/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "d6a7079d95d58b4fa3f123b623b9a1579b64c2a0",
+      "sha256": "12db88da76ceff24ea795a423fe669ac4f8644b4d079acc65356f3e0c0c40e18",
+      "bytes": 4239
+    },
+    {
+      "path": "src/exercises/12/node_modules/stats/README.md",
+      "mode": "100644",
+      "git_blob_sha": "72af04386d602284144a96a813e45915b9a41a23",
+      "sha256": "06963320669bace8f5392b948c4854cb606ed4336701d3e8219b264ef28e8d05",
+      "bytes": 1265
+    },
+    {
+      "path": "src/exercises/12/node_modules/stats/index.js",
+      "mode": "100644",
+      "git_blob_sha": "4c77c934f1ca80d75647a58376674341c985c038",
+      "sha256": "8f0b049e9be4bafffb5630c6c6d4ec59356ab4d90e026a5856572c5a2dd1b3dc",
+      "bytes": 1623
+    },
+    {
+      "path": "src/exercises/12/node_modules/stats/package.json",
+      "mode": "100644",
+      "git_blob_sha": "a6ba1d04b55e1cc2d213469da6d7b8b9f7daeda8",
+      "sha256": "3b744739255728e505ab1909647d4479c7c482d61bbb1ea3e4e8e2eafbaa233b",
+      "bytes": 48
+    },
+    {
+      "path": "src/exercises/12/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "627e34859030b6326a261014a55bb12167a51623",
+      "sha256": "88badbff12494a0b2da80499411ff958aa7f486a38d0d96b3cf407ff9cbb598b",
+      "bytes": 1215
+    },
+    {
+      "path": "src/exercises/13/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "bc245c3a313a9bd94f62018a403479ba0640751b",
+      "sha256": "4e33ea3137fcaf5037ec9cffef59919dee243885630e8fc4c46f8da94c9faf39",
+      "bytes": 3554
+    },
+    {
+      "path": "src/exercises/13/module-augmentations/date-wizard/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "d8fdc6564f549abc7cfacc151e60dc3f77eecf3b",
+      "sha256": "0649ca2f6b5468e844fa63a11e1e1645331b365d0be986b919819abcf89c868b",
+      "bytes": 206
+    },
+    {
+      "path": "src/exercises/13/module-augmentations/date-wizard/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "1055628c317342b446ab4e7c2a260531075cefb5",
+      "sha256": "09002d4ab1cf59f67308e7d2c3aa60c6a71582d1e54d7876bb2d5ac03a90424e",
+      "bytes": 138
+    },
+    {
+      "path": "src/exercises/13/node_modules/date-wizard/index.d.ts",
+      "mode": "100644",
+      "git_blob_sha": "a02397c064dbbcf118d281241bee55c11bca9b75",
+      "sha256": "074beb0dcbc693dc237e1bc1eb3f4d8c2058884266e3226362521de4b9ead5fe",
+      "bytes": 328
+    },
+    {
+      "path": "src/exercises/13/node_modules/date-wizard/index.js",
+      "mode": "100644",
+      "git_blob_sha": "4b854bd107682d0b45437d0f493655644ee94231",
+      "sha256": "e21ed3db729a10dd87241411944b267f15e18a6ed3894b856c055bedf1a4d369",
+      "bytes": 943
+    },
+    {
+      "path": "src/exercises/13/node_modules/date-wizard/package.json",
+      "mode": "100644",
+      "git_blob_sha": "29ab78efcb887fdb4cc97830ef00fdf6498821fd",
+      "sha256": "ef390c1b92f69ded38b0888c6fdcc2da50ed281b619033d909de0a013a0210ce",
+      "bytes": 54
+    },
+    {
+      "path": "src/exercises/13/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "0f0799e7217beab051d2963dc06bca29d1c764cf",
+      "sha256": "c24426ec1f0388c541efe8ec1f60f7560635e07b309752a53eab2dcc21e9ec42",
+      "bytes": 456
+    },
+    {
+      "path": "src/exercises/14/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "fff7e3757b90ec916395d3e0610bc14acf727123",
+      "sha256": "348eb47461ec992798754afa6918e8d99559db8c98df9dd6a26502b8c60b99fe",
+      "bytes": 7469
+    },
+    {
+      "path": "src/exercises/14/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "8d9a49b9478f107eae7e80f3d9b124483eb233a0",
+      "sha256": "19428b1ad94c617a130571913e3b121d11485601474a1383e085a13e3f61965a",
+      "bytes": 7474
+    },
+    {
+      "path": "src/exercises/14/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "c98442f104045d6c7fd0b905daaaf24706b5dd62",
+      "sha256": "4ccc5f2fc4c53e77456e16bea7b10fcff0384b4b24d31e1b810aaeadbaafa4f8",
+      "bytes": 1981
+    },
+    {
+      "path": "src/exercises/15/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "fcf12b84cc1a93a9125646f0f5658f1a4950cfb1",
+      "sha256": "7e50ed25ad2e4b2ef602631147eaf5ebd84ae34611157ba31d819b9d56441f1f",
+      "bytes": 1466
+    },
+    {
+      "path": "src/exercises/15/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "4461c4f15588adfd7c09845aea09f23d88247712",
+      "sha256": "641b6958bfa4a9e143bab3b55ee105d6257e8415e6b8647098f15dced3e5da97",
+      "bytes": 1203
+    },
+    {
+      "path": "src/exercises/15/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "2b5d17a309f59da33309d2331d7d0d87c0beb90e",
+      "sha256": "a209302eccec9d221fcc728edf4cdb974203f579b513e2c471755ca904396cb1",
+      "bytes": 786
+    },
+    {
+      "path": "src/exercises/16/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "b3484294de9e7b9f7e8e5e6466f97f34f0a4d4d9",
+      "sha256": "b478203e8830898461c370436a1c9d0534cc579f810e12ab27fd2d2ec34ec03e",
+      "bytes": 1969
+    },
+    {
+      "path": "src/exercises/16/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "c3285cf8ae1b6b36861de67ef9d8db44b34c6ac6",
+      "sha256": "3c0e0133bc955ee88ed504035bcab5ccb64e1bfbaa5e8fad8fca8646aa15da07",
+      "bytes": 27
+    },
+    {
+      "path": "src/exercises/2/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "75254a6e31b79c312682ff58f6d127cf1dfca7a3",
+      "sha256": "b4363a941d085c18ad2c2498766222fd40fa9cb8b61a7264c80f2873871fc032",
+      "bytes": 1321
+    },
+    {
+      "path": "src/exercises/2/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "44e65cb33961a077e91102ad7871b272d873435e",
+      "sha256": "5b4622116a4c829045cac936283603cdc4537cf35cd2f0306843c0c9274d2123",
+      "bytes": 1324
+    },
+    {
+      "path": "src/exercises/2/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "212a14b23fa96a9fc509da6f3f3cf110d32e07eb",
+      "sha256": "88fd6a900a8b811af19cd51479b8fbc29c265a3fe49d41ed5eff215086f26554",
+      "bytes": 658
+    },
+    {
+      "path": "src/exercises/3/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "44c107023fc59b3e11012a52e3e184131d16cfea",
+      "sha256": "9979f972aedfaef6219cd195d6403a595a022ed13cfe1f1ee4e9ad491d39fd01",
+      "bytes": 1417
+    },
+    {
+      "path": "src/exercises/3/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "fa77ea06324e5c9a56cfa59c7fdfe22ab9474b4d",
+      "sha256": "4ea273a743642e443d25045b56a72f27cc01810f9452a397b011516ccf4015ce",
+      "bytes": 1412
+    },
+    {
+      "path": "src/exercises/3/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "ea90dd9303362bca4dbdb4091c65162b89b6e3a0",
+      "sha256": "c96793f917fb832b0b6ebe15d4d294848ef52885e7b8b13e7efe6ef72ab732cc",
+      "bytes": 659
+    },
+    {
+      "path": "src/exercises/4/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "d101ebf0f38528bcddc6aaf983992c98e097aef5",
+      "sha256": "431c04e096207f5ce8bbedf3eb9f7d15a2ad54e719ea6e3c10969987aed35336",
+      "bytes": 1739
+    },
+    {
+      "path": "src/exercises/4/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "999c3be5a3a1cef91269ff9a8bf1bca52d81b525",
+      "sha256": "d91f743d7e8110db653a2e854b914da98f76814ac0af40130da4ad50512730d4",
+      "bytes": 1706
+    },
+    {
+      "path": "src/exercises/4/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "863caf5892970aeb572fa9d3db31070b610e467a",
+      "sha256": "3c0ba167f199f9144982e066c7e46d6d4de9df721df88800b173e08265fe2d4c",
+      "bytes": 1318
+    },
+    {
+      "path": "src/exercises/5/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "24274dd03b31e99dd1f80beffb890b58dbd0e8a7",
+      "sha256": "9dc6939a709963d4b13e0a864ec7865c2eb1e12d1f9cd70beb4ceab220aeb4f6",
+      "bytes": 2628
+    },
+    {
+      "path": "src/exercises/5/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "7f4daa0bd8195797a80948e74700ace8a9546853",
+      "sha256": "3470b7e3a4fa8db062ea517abd4412516817682919278c600a27466587231931",
+      "bytes": 2591
+    },
+    {
+      "path": "src/exercises/5/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "1535008fa7e11af61216b271386c60f438fc67d8",
+      "sha256": "97ed83330cca7022805c12b794268294ec471be339a8412298854a3af7c08a80",
+      "bytes": 2279
+    },
+    {
+      "path": "src/exercises/6/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "6f8b494df07fb254be70b87d684cda426795b06c",
+      "sha256": "a99afba001aef5eed16796545b06bb93c655205b667d3756c12f9454e8b0c4cf",
+      "bytes": 2878
+    },
+    {
+      "path": "src/exercises/6/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "d2e0a8d2e24d7e204b3971b561029b25b1087b72",
+      "sha256": "6d6f05e1625cd24a2f02cfb40ee020c30efcf139764569d34cbbdd74d2ecd819",
+      "bytes": 2561
+    },
+    {
+      "path": "src/exercises/6/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "18be172070fee7dcf7d20c1c6fa08b219f34b9b9",
+      "sha256": "f5de1ce70bf6082ce506aef1aadcfad18341e5a0bf3f201ccf8273795535e0b9",
+      "bytes": 1829
+    },
+    {
+      "path": "src/exercises/7/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "cb24e0f08d11e83438577315c8bf1840b1362448",
+      "sha256": "b7ecf0fdc3e645ee192ab909791c337b1fe8ae5afee8976b6133ba050eaf4ba5",
+      "bytes": 3017
+    },
+    {
+      "path": "src/exercises/7/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "1a067f47b06901139ebf915e91d6030a98e357da",
+      "sha256": "18b615456b33b50155e7fd9d0a8b60fa798d85ebbd360970e46f2d85587495f0",
+      "bytes": 2991
+    },
+    {
+      "path": "src/exercises/7/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "3c24e5b69cde842de230070245d064efb5872bf7",
+      "sha256": "bf1bc8ffe9e6969ff721b5c85a556196e40524c5a8a31ea30e999efef75ce7df",
+      "bytes": 471
+    },
+    {
+      "path": "src/exercises/8/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "915a079104aa038f09973a65ba3140e5ca5c52bb",
+      "sha256": "400283f806c6d3a0c84b2dc3e9bbfbbc8ae910ea3f9c6a2d38dd8bb88afd6017",
+      "bytes": 2421
+    },
+    {
+      "path": "src/exercises/8/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "1e660c7d4bf3e5a514f77a3da945f2c3bcd78646",
+      "sha256": "605defed258f960071571ee4a01905be21e99dff8bf5a7b87aafc3bf27407bd0",
+      "bytes": 2360
+    },
+    {
+      "path": "src/exercises/8/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "53a524e982efc620364e1482a511ba2a3f21c30c",
+      "sha256": "21678654f512bbb63db907f70029dfb765d9243231610f27a2ba2885014ab951",
+      "bytes": 1057
+    },
+    {
+      "path": "src/exercises/9/index.solution.ts",
+      "mode": "100644",
+      "git_blob_sha": "95491e7b8c847521c6d3b6d129f19cbdb2badc63",
+      "sha256": "803c53c725791ec6b4a0105d718ceb0460661dedbcbc2d79edb8417925a74ad5",
+      "bytes": 4397
+    },
+    {
+      "path": "src/exercises/9/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "c03023de13f0a8440185943cfa37ab28654bc088",
+      "sha256": "c84276245e050545cc0dd61c349a04d903fbc31403b41f94f38f892a0bd18ffd",
+      "bytes": 4603
+    },
+    {
+      "path": "src/exercises/9/test.ts",
+      "mode": "100644",
+      "git_blob_sha": "e4c91e1113bfcdc9ddc53a376d008bc8f4be9367",
+      "sha256": "52797c3165d1fdd6fbf441a07cebd0be8438c5b0656180b6089550a9e717018e",
+      "bytes": 2646
+    },
+    {
+      "path": "src/exercises/node_modules/type-assertions/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "63b153a617e055a679257ff63d99329d76240841",
+      "sha256": "c03903a7144ab288191af766beca8894dd8e0e9ef466aad9f846102f8660f5fe",
+      "bytes": 1602
+    },
+    {
+      "path": "src/index.tsx",
+      "mode": "100644",
+      "git_blob_sha": "def13ecb4e8d7c1075d5bdb217374562a700faf5",
+      "sha256": "431483f1ef70537065a454627829097340fabb271816a752e5cc65b9b0f07c22",
+      "bytes": 343
+    },
+    {
+      "path": "src/lib/exercise-structures.ts",
+      "mode": "100644",
+      "git_blob_sha": "ec724363f5b8b9ef2f13e92f242b9445cbd6b198",
+      "sha256": "df28adc89fe13f5913b10fb209c41caec98b73dbae847069f64008a9a7390b87",
+      "bytes": 8827
+    },
+    {
+      "path": "src/lib/file-tree.ts",
+      "mode": "100644",
+      "git_blob_sha": "f25faef0ce92db53fe35cb9d9383d826e2aa92c6",
+      "sha256": "f33ecd8611786c9a72a25dab915bbeaced0bd79da923951e292f29d95582ea0d",
+      "bytes": 143
+    },
+    {
+      "path": "src/lib/local-data.ts",
+      "mode": "100644",
+      "git_blob_sha": "f5d33939f93e8977b23894a0ee5035c18d44c02a",
+      "sha256": "6660af2152985c74e157f62d2d484547f4ee8cbd3a40a0aaf4c4bff9ca34f09d",
+      "bytes": 339
+    },
+    {
+      "path": "src/lib/validation-error.ts",
+      "mode": "100644",
+      "git_blob_sha": "657ffc454f710ef3994a1247ac5569c1cb9224c5",
+      "sha256": "6acadf5033f4310ef44882b6becd4d33e166ef48f4c98438bd6aaf48c73ecb3c",
+      "bytes": 126
+    },
+    {
+      "path": "src/lib/webpack-context.d.ts",
+      "mode": "100644",
+      "git_blob_sha": "0b1262dd698ccf3d631fa3720b19a5d0e64e5384",
+      "sha256": "36638027c49a214c3206c745d8d8c9f2255b26a6a3894b0702d3de9609daf982",
+      "bytes": 209
+    },
+    {
+      "path": "src/observables/exercise.ts",
+      "mode": "100644",
+      "git_blob_sha": "8c6fa959114118963ae6d4ee7102b0dc9d77fe86",
+      "sha256": "b8b9fa0f965e0b5d1d69b8f20d9569ab912f60e1988c75f277f4a606d2ef6d82",
+      "bytes": 2217
+    },
+    {
+      "path": "src/observables/exercises-progress.ts",
+      "mode": "100644",
+      "git_blob_sha": "14a4e7a0a05826675ff4904ab82c8dec6c8c1b7a",
+      "sha256": "3a71639fcb691601372fdad863f21aa7b2dd3817cc031c7a049dd803bef2448e",
+      "bytes": 2194
+    },
+    {
+      "path": "src/observables/migrations/2020-09-26.ts",
+      "mode": "100644",
+      "git_blob_sha": "9bb8aa5921ab73248b5f3d2abd390b2a5430f153",
+      "sha256": "97ae8466ababc7a79b4708fd03d484ec9df8f28270a4fad1249d0e6241f67b02",
+      "bytes": 965
+    },
+    {
+      "path": "src/observables/ui.ts",
+      "mode": "100644",
+      "git_blob_sha": "4c802210c088ddca45ea7446f4f381cadfef588d",
+      "sha256": "42014cb8786d20b163ff95a3224fb14e20842940ebe1888c318de40507abfd5a",
+      "bytes": 1384
+    },
+    {
+      "path": "src/observables/url-params.ts",
+      "mode": "100644",
+      "git_blob_sha": "c94011d281426d521c6552aceae87832b528ccd5",
+      "sha256": "c4729ec4c16f4804cb55a0c958e3d1e84e180cb1fadac25b2e324e40e5bded57",
+      "bytes": 828
+    },
+    {
+      "path": "src/operators/check-type-script-project/in-memory-file-system.ts",
+      "mode": "100644",
+      "git_blob_sha": "caa85802d3968ccb8925dbe4194af1d4c8787b33",
+      "sha256": "8ee19f292db985e1604535a59c0c2a1836b3a02bf2e9d035bbb178aeedfe964b",
+      "bytes": 4616
+    },
+    {
+      "path": "src/operators/check-type-script-project/index.ts",
+      "mode": "100644",
+      "git_blob_sha": "ea0e368fe5e894e5a9880248bb3b2ef9457c8261",
+      "sha256": "85fe775e24deb6c0730537dac361bf5c0b9dc13c450e0c6d0a16f44959606807",
+      "bytes": 2310
+    },
+    {
+      "path": "src/operators/check-type-script-project/service.ts",
+      "mode": "100644",
+      "git_blob_sha": "9ce563d96442f52458beada89ad32026f659bdb0",
+      "sha256": "c82c4cc3f95586872490d31df49a1275ae7224f1bf0d5ac00fcb6811b2d270b8",
+      "bytes": 1492
+    },
+    {
+      "path": "src/react-app-env.d.ts",
+      "mode": "100644",
+      "git_blob_sha": "6431bc5fc6b2c932dfe5d0418fc667b86c18b9fc",
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "bytes": 40
+    },
+    {
+      "path": "src/setupTests.ts",
+      "mode": "100644",
+      "git_blob_sha": "74b1a275a0ea7df518f17bcea5375abf003abe55",
+      "sha256": "bb69f5288c24cd7f5322768e21408b6d69a25a16b052e005c1f2b4d75370fb80",
+      "bytes": 255
+    },
+    {
+      "path": "src/styles/emotion.d.ts",
+      "mode": "100644",
+      "git_blob_sha": "03feb7a6895858db9ffaad10e6020563034adba7",
+      "sha256": "674f32d727e148dce4f312eec69f2c7d13ec1db27b626720e18bdb6d450bfb19",
+      "bytes": 181
+    },
+    {
+      "path": "src/styles/themes.ts",
+      "mode": "100644",
+      "git_blob_sha": "bcb4ebd80918674304853d2d428a14544e39f3be",
+      "sha256": "9fa8e02341023952188a3a2e74bd7ae0121d157e3ddb0b7579f0ecaef1041aca",
+      "bytes": 209
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "git_blob_sha": "2c4329eb70716192811292379a4416d1aa6528b2",
+      "sha256": "315d4497854c916d161cd3df3d3afdef4b1ef43144800ee1a30bcec90ee0f104",
+      "bytes": 593
+    }
+  ]
+}

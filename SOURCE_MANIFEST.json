@@ -1,0 +1,62 @@
+{
+  "snapshot_date": "2026-10-27",
+  "scope": "Default-branch tracked snapshots; no exercise reordering or source edits. Git history and untracked/generated local files are outside scope.",
+  "sources": [
+    {
+      "repository": "4GeeksAcademy/master-typescript-programming-exercises",
+      "url": "https://github.com/4GeeksAcademy/master-typescript-programming-exercises",
+      "commit": "d3999bbabc804e253a6d190530cb198743d3b69f",
+      "branch": "main",
+      "snapshot_url": "https://github.com/4GeeksAcademy/master-typescript-programming-exercises/tree/d3999bbabc804e253a6d190530cb198743d3b69f",
+      "license": "No repository-wide license found; nested plugin declares UNLICENSED",
+      "status": "link-only",
+      "destination": null,
+      "source_file_count": 1048,
+      "imported_file_count": 0,
+      "omitted_file_count": 1048,
+      "inventory": "manifests/master-typescript-programming-exercises.json"
+    },
+    {
+      "repository": "typescript-exercises/typescript-exercises",
+      "url": "https://github.com/typescript-exercises/typescript-exercises",
+      "commit": "95b2e81f6e4bd3d1b81072ceb311bcb4b8415e91",
+      "branch": "main",
+      "snapshot_url": "https://github.com/typescript-exercises/typescript-exercises/tree/95b2e81f6e4bd3d1b81072ceb311bcb4b8415e91",
+      "license": "MIT",
+      "status": "imported",
+      "destination": "sources/typescript-exercises",
+      "source_file_count": 121,
+      "imported_file_count": 121,
+      "omitted_file_count": 0,
+      "inventory": "manifests/typescript-exercises.json"
+    },
+    {
+      "repository": "type-challenges/type-challenges",
+      "url": "https://github.com/type-challenges/type-challenges",
+      "commit": "91220864b0cbb84106c3b97e8d116316db2856e7",
+      "branch": "main",
+      "snapshot_url": "https://github.com/type-challenges/type-challenges/tree/91220864b0cbb84106c3b97e8d116316db2856e7",
+      "license": "MIT",
+      "status": "imported",
+      "destination": "sources/type-challenges",
+      "source_file_count": 1088,
+      "imported_file_count": 1088,
+      "omitted_file_count": 0,
+      "inventory": "manifests/type-challenges.json"
+    },
+    {
+      "repository": "birsi/typescript-training",
+      "url": "https://github.com/birsi/typescript-training",
+      "commit": "1ae7b80a56a87a96a4677943f65c5933ce51d62e",
+      "branch": "main",
+      "snapshot_url": "https://github.com/birsi/typescript-training/tree/1ae7b80a56a87a96a4677943f65c5933ce51d62e",
+      "license": "MIT",
+      "status": "imported",
+      "destination": "sources/typescript-training",
+      "source_file_count": 31,
+      "imported_file_count": 31,
+      "omitted_file_count": 0,
+      "inventory": "manifests/typescript-training.json"
+    }
+  ]
+}

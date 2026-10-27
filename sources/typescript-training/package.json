@@ -1,0 +1,17 @@
+{
+  "name": "typescript-training",
+  "version": "1.0.0",
+  "description": "Hands-on TypeScript training: 12 exercises with compile-time self-checks, designed to be worked through with Claude Code as your tutor.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit --target ES2022 --module ESNext --moduleResolution bundler --lib ES2022,DOM --strict --noImplicitReturns --noFallthroughCasesInSwitch --esModuleInterop --skipLibCheck --forceConsistentCasingInFileNames",
+    "check:all": "tsc -p tsconfig.json",
+    "check:solutions": "npm run check -- solutions/stage1/*.ts solutions/stage2/*.ts solutions/stage3/*.ts"
+  },
+  "keywords": ["typescript", "training", "exercises", "learning", "claude-code"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

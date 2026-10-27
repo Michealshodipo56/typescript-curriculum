@@ -1,0 +1,235 @@
+{
+  "source": {
+    "repository": "birsi/typescript-training",
+    "url": "https://github.com/birsi/typescript-training",
+    "commit": "1ae7b80a56a87a96a4677943f65c5933ce51d62e",
+    "branch": "main",
+    "snapshot_url": "https://github.com/birsi/typescript-training/tree/1ae7b80a56a87a96a4677943f65c5933ce51d62e",
+    "license": "MIT",
+    "status": "imported",
+    "destination": "sources/typescript-training",
+    "source_file_count": 31,
+    "imported_file_count": 31,
+    "omitted_file_count": 0,
+    "inventory": "manifests/typescript-training.json"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "git_blob_sha": "acfe0021c7f02e0b48903e8f3bc25bb43e27da4d",
+      "sha256": "67f54cf0fdebe44a0b0d0c4f2bfddcf25dcc6e0178a7dc229362e1b5c25ff5e5",
+      "bytes": 58
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "git_blob_sha": "ada2c7616b9f4d1bf22dc496c6ce2921175f62c0",
+      "sha256": "ebedab6d614650c81cfa93bbca483e59698f509d038630fd679e3345b6d33fbc",
+      "bytes": 4261
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "git_blob_sha": "b289838ebf911f31c4ed5bd535eb7978990e4a55",
+      "sha256": "3bcc1e57a3a334565aa6d89bb0087458da29bb58e73ef0e552717dd75ee89226",
+      "bytes": 1071
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "git_blob_sha": "7a42c9ee8744b8baeea053ceb8ad0ca5d0f08b9f",
+      "sha256": "8ba070303f7e666af79ace69e84698687093806067132d4c2a8024d51b86f58a",
+      "bytes": 12537
+    },
+    {
+      "path": "exercises/stage1/01_basics.ts",
+      "mode": "100644",
+      "git_blob_sha": "e2430b6a66e7a5adf6edc62d223e781c4c423926",
+      "sha256": "67f68b13bb57f61bd64a0ce7349310a4e731c8838d2e89a2616bf231da1ae87e",
+      "bytes": 2683
+    },
+    {
+      "path": "exercises/stage1/02_functions.ts",
+      "mode": "100644",
+      "git_blob_sha": "2f1e7f93800f0f12c165f93b9ae8f459b2f2ca20",
+      "sha256": "969b6f89a97f6f550fea0bc28abc4a913659c313e5aeb6b5c41d895a92e2ac3b",
+      "bytes": 4095
+    },
+    {
+      "path": "exercises/stage1/03_unions_narrowing.ts",
+      "mode": "100644",
+      "git_blob_sha": "6bae4b7211ee2219365b35d3a5c04dad643cbc8e",
+      "sha256": "28b9ba53b63704ee6fc3c1332f860383e1af3785dd073b28d9d3c0051099b8a5",
+      "bytes": 3426
+    },
+    {
+      "path": "exercises/stage1/04_tuples_enums_const.ts",
+      "mode": "100644",
+      "git_blob_sha": "ebde92655bafebf6e575cdf8162d74626cf29dd0",
+      "sha256": "be792ebd1ba836d8668a4cb6a06566af0ac02735cf6193702a51aa7bdd0f22b1",
+      "bytes": 4164
+    },
+    {
+      "path": "exercises/stage2/05_interfaces.ts",
+      "mode": "100644",
+      "git_blob_sha": "c738483c5985a1fd522de511bbf6372acccc8598",
+      "sha256": "3538237476bec67fe23d88bad3da136ff6efdbbd23873be55b4e7df48a8b4c06",
+      "bytes": 4646
+    },
+    {
+      "path": "exercises/stage2/06_classes.ts",
+      "mode": "100644",
+      "git_blob_sha": "b397db07b840fac223dd64436ad586686784c755",
+      "sha256": "2ebf376ea430370707fe287222a18b1e35bf259e780e6f4ace45c1100ce3a1f6",
+      "bytes": 4020
+    },
+    {
+      "path": "exercises/stage2/07_generics.ts",
+      "mode": "100644",
+      "git_blob_sha": "687e8eac53a03537157b15f575ab5f53b27ad93e",
+      "sha256": "f16637421fc4e4674bfe0d6aa09a06f506bfd7c8d35f83401b9915a65d8d1465",
+      "bytes": 3524
+    },
+    {
+      "path": "exercises/stage2/08_discriminated_unions.ts",
+      "mode": "100644",
+      "git_blob_sha": "d65d722f43135da37e54aa423de7e9a1debb8c26",
+      "sha256": "8f43e6d6504de001eac374d7bc0d52d302512ed7b849990e577cd9280fc19f4f",
+      "bytes": 4839
+    },
+    {
+      "path": "exercises/stage3/09_utility_types.ts",
+      "mode": "100644",
+      "git_blob_sha": "47d5ec1e5cb19412a6cd3888a160894a45878cbd",
+      "sha256": "44f08b3b6cf900f734d275e196f2d094e2f60318a5ce8780781df9459256fdd4",
+      "bytes": 4874
+    },
+    {
+      "path": "exercises/stage3/10_type_guards.ts",
+      "mode": "100644",
+      "git_blob_sha": "f25fe4898f57a94055bbe74762d99a1f937eaf67",
+      "sha256": "845206e0f3939bdad7b392e600c2be6756b537b22737e2206a37c55848d59921",
+      "bytes": 4121
+    },
+    {
+      "path": "exercises/stage3/11_mapped_conditional.ts",
+      "mode": "100644",
+      "git_blob_sha": "0271f0bd6f7bb1760d8e70f399d02b782d4addc9",
+      "sha256": "97658c2934fb3e21a8d1f3a58f311406979ab5bb4bd5b9f851a9851d419f939f",
+      "bytes": 4096
+    },
+    {
+      "path": "exercises/stage3/12_async.ts",
+      "mode": "100644",
+      "git_blob_sha": "626195ffe645f1aeb1bc1472faecfdf215eae4c7",
+      "sha256": "8f07621eeb1386c6ae461ad9ef74c65d5b659c3d29508443f2c1a0bed6d26b27",
+      "bytes": 3945
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "git_blob_sha": "645ef6dd3b6294881ad20a87b3fb8526ffacf009",
+      "sha256": "9dab4f1bedf5cf6c3e1691a90f732dc1c8d15be1ceedb28c7c579214bf065c6b",
+      "bytes": 746
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "git_blob_sha": "cc95167fbae11c87aeea30c7b9be9d787b0a65ff",
+      "sha256": "8943c6d9aca1fa6b2cea5fd1798347aa16b9f13f1d364ceff4334071fe4018f4",
+      "bytes": 810
+    },
+    {
+      "path": "solutions/stage1/01_basics.ts",
+      "mode": "100644",
+      "git_blob_sha": "608fc73e9386c1b1cd65bf3a9c98037edfd57480",
+      "sha256": "2727522f43a3fe227c7b8042d9e6bf2d292bbbd735262176aa2203df82e55872",
+      "bytes": 1757
+    },
+    {
+      "path": "solutions/stage1/02_functions.ts",
+      "mode": "100644",
+      "git_blob_sha": "e48b21870b99f077b7077297cca74ff8fc2555b1",
+      "sha256": "6038ec727bb4c59d45d6c0a28cdbec768a67d38d51a1a6e79cd621b5953bc75d",
+      "bytes": 2812
+    },
+    {
+      "path": "solutions/stage1/03_unions_narrowing.ts",
+      "mode": "100644",
+      "git_blob_sha": "2b6f11788c4acad6334787f21361c98b2cd73a63",
+      "sha256": "5ea5bdf04b19cc352fe26aabe17dda05b839d8e66c42a8877312a0cd3f71b51c",
+      "bytes": 2340
+    },
+    {
+      "path": "solutions/stage1/04_tuples_enums_const.ts",
+      "mode": "100644",
+      "git_blob_sha": "16fa70507245fcf2e5eb23eb224a273539720757",
+      "sha256": "04bc6dcc2823073c6963b4ca768356199eb1ebd5384126339a2555757ffb21d2",
+      "bytes": 2783
+    },
+    {
+      "path": "solutions/stage2/05_interfaces.ts",
+      "mode": "100644",
+      "git_blob_sha": "947c35321a9019135eaaf93a44a911eb04a684b8",
+      "sha256": "f129d56c81c776541027b24b7001e0abd50febe86279f9aad518f276be643c32",
+      "bytes": 3460
+    },
+    {
+      "path": "solutions/stage2/06_classes.ts",
+      "mode": "100644",
+      "git_blob_sha": "a5070aec710ce5b8c4e593ec94d2a9f190525e03",
+      "sha256": "ed858ae44a9b4e0a1c463c2f7883b4d64ecd7adefe05bbcb6f2fdf374992a721",
+      "bytes": 2685
+    },
+    {
+      "path": "solutions/stage2/07_generics.ts",
+      "mode": "100644",
+      "git_blob_sha": "cb6b801904fce0d541b514eb626a09c9294ca851",
+      "sha256": "5658b92e3c03fdd2acf0fe6a7fb674ff8d5d9e086be984856460a57cd2481bd3",
+      "bytes": 2261
+    },
+    {
+      "path": "solutions/stage2/08_discriminated_unions.ts",
+      "mode": "100644",
+      "git_blob_sha": "2c37c151cd0822e568f6f11dd21053721e68d92c",
+      "sha256": "f150574b8351568f9228429a05763ec5a4494c4ef51904937673900767ac74a3",
+      "bytes": 3101
+    },
+    {
+      "path": "solutions/stage3/09_utility_types.ts",
+      "mode": "100644",
+      "git_blob_sha": "5b77f99f77c1586a3029ceb3f700ea71f7463611",
+      "sha256": "83239c964feb75614883a79dad5ddbc6b5e0a56083c8309dee0403d99a937f3c",
+      "bytes": 2781
+    },
+    {
+      "path": "solutions/stage3/10_type_guards.ts",
+      "mode": "100644",
+      "git_blob_sha": "0609d1f6aa0f99e2c5cf9d6263256cb9d4d0e227",
+      "sha256": "a8f241580a939a175c95d884698e3ed5e45cb4da70bc351bf8072f93b39c209c",
+      "bytes": 2665
+    },
+    {
+      "path": "solutions/stage3/11_mapped_conditional.ts",
+      "mode": "100644",
+      "git_blob_sha": "ebae83e8c10d7c21f3e23174e6b81dc7a11071d9",
+      "sha256": "8fd10522870f6fbd453931d4eb0442775c5568f0b595530a2e545a9835910610",
+      "bytes": 2319
+    },
+    {
+      "path": "solutions/stage3/12_async.ts",
+      "mode": "100644",
+      "git_blob_sha": "ce3a1bb5c4cec988504ade2c6a09f3560ac6a54b",
+      "sha256": "e275c4a4136460669801a0f76d48afb541e5af405698d795be532403fccbd15d",
+      "bytes": 2603
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "git_blob_sha": "755a510ad0f3ddb1b5ad133db804de5ab4f64fee",
+      "sha256": "a8cfdd03990e4cd7501b58e1bc82f5364a59ea7b85d25269ed0716cb572f81f6",
+      "bytes": 406
+    }
+  ]
+}
