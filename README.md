@@ -32,4 +32,8 @@ This collection is for inspection. Each upstream project keeps its own dependenc
 
 ## Unified learning sequence
 
-Start with [CURRICULUM.md](CURRICULUM.md): 217 exercise units in 17 ordered modules, with all 52 subtasks in the 12 TypeScript Training lessons listed individually. The [review report](CURRICULUM_REVIEW.md) explains coverage and source inconsistencies. [sequence.json](curriculum/sequence.json) records the order and editable/test paths; [file-review.json](curriculum/file-review.json) accounts for all 1,240 imported files. The 4Geeks material remains link-only because of its license status.
+Start with [CURRICULUM.md](CURRICULUM.md): **427 ordered entries in 22 modules**, from primitive values to advanced type programming. This includes all 52 individual TypeScript Training tasks, 15 TypeScript Exercises, 190 Type Challenges and 170 external 4Geeks practice links. The 4Geeks source content remains outside this repository because redistribution permission was not established.
+
+The complete Markdown report records prerequisites, source contracts, inconsistencies, licensing and verification. [FILE_REVIEW.md](FILE_REVIEW.md) accounts for every one of the 2,288 source paths inspected, including the restricted source, and distinguishes text reading from generated-data and visual checks. [CURRICULUM_REVIEW.md](CURRICULUM_REVIEW.md) is the short review index. [sequence.json](curriculum/sequence.json) provides the same sequence for tooling.
+
+Run `python3 scripts/verify_import.py` and `python3 scripts/verify_curriculum.py` to verify source preservation, exact task coverage, local links and prerequisite ordering. These checks do not execute or solve the learner exercises.
