@@ -1,6 +1,6 @@
 # TypeScript curriculum source collection
 
-Four upstream TypeScript learning repositories collected for a later file-by-file curriculum review. Exercises have **not** been merged, rewritten, or rearranged. Each imported source retains its original internal paths, source files, tests, solutions, documentation, dotfiles, lockfiles, attribution, and license.
+Four upstream TypeScript learning repositories catalogued for curriculum review, with permitted source snapshots preserved. Source exercise files have **not** been merged, rewritten, or moved. The recommended learning order is now documented in [CURRICULUM.md](CURRICULUM.md). Each imported source retains its original internal paths, source files, tests, solutions, documentation, dotfiles, lockfiles, attribution, and license.
 
 | Source | Location | Tracked files imported | License/status |
 | --- | --- | ---: | --- |
@@ -29,3 +29,7 @@ The 4Geeks repository exposes no repository-wide license grant at the pinned sna
 Run `python3 scripts/verify_import.py` from this directory. It checks exact imported file sets, Git blob hashes, SHA-256 checksums, byte sizes, modes, and absence of gitlinks against the inventories. All upstream tracked files are included for the three MIT sources, including deliberately tracked exercise fixtures beneath `node_modules`.
 
 This collection is for inspection. Each upstream project keeps its own dependency and build setup; there is no unified installation or build command. Nested upstream GitHub Actions definitions are preserved as source files and are not installed as root workflows.
+
+## Unified learning sequence
+
+Start with [CURRICULUM.md](CURRICULUM.md): 217 exercise units in 17 ordered modules, with all 52 subtasks in the 12 TypeScript Training lessons listed individually. The [review report](CURRICULUM_REVIEW.md) explains coverage and source inconsistencies. [sequence.json](curriculum/sequence.json) records the order and editable/test paths; [file-review.json](curriculum/file-review.json) accounts for all 1,240 imported files. The 4Geeks material remains link-only because of its license status.
